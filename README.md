@@ -30,7 +30,7 @@ vscode, sublime or atom
 For using vscode, install plugings
 Angular Language Service, Auto Import plugin
 
-and update vscode settings -> Settings -> git.path=<git installation> (C:\\amit.io\\Program\\PortableGit\\cmd\\git)
+and update vscode settings -> Settings -> git.path=<git installation> (C:\\\amit.io\\\Program\\\PortableGit\\\cmd\\\git)
   
   
 ### Step 3. Node JS and NPM installation
