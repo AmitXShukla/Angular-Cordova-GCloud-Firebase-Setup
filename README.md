@@ -108,7 +108,17 @@ Ng build -prod
 build a desktop app
 
 ### Step 10: Firebase hosting
-*** update instructions here
+
+https://www.npmjs.com/package/firebase-tools
+
+npm install -g firebase-tools
+
+firebase init
+
+firebase login
+
+firebase deploy
+
 
 ### Step 11: GCloud Hosting
 *** update instructions here
