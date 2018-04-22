@@ -80,27 +80,33 @@ cordova plugin add cordova-plugin-whitelist
 
 elishio -> dir / ls
 ### create a new <src> directory inside your cordova app. This is the directory where Angular app will reside.
+	
 mkdir src
+
 cd src
+
 ng new elishio // elishio is your new Angular App
 
 ### now your angular app is ready, it's time to setup
 
-*** update instructions here
-.gitignore
+#### update .gitignore file
+
+Environment.ts
+Environment.prod.ts
+
+#### update Angular CLI and configuration
 Angular/Cli - assets directory
 update polyfill
 
-Notes:
-And how to find exact document in elish.io or github repo
-What is carrot sign and tilda character - talk about package.json
+#### Package.json
+In the simplest terms, the tilde matches the most recent minor version (the middle number). ~1.2.3 will match all 1.2.x versions but will miss 1.3.0.
+The caret, on the other hand, is more relaxed. It will update you to the most recent major version (the first number). ^1.2.3 will match any 1.x.x release including 1.3.0, but will hold off on 2.0.0.
+
 Talk about polyfill (update webanimations, hammerjs)
 Angular-cli.json - talk about assets
-Environment.ts
-Environment.prod.ts
 Ng build -prod
 
-### Step 8: build a browser, android adn iOS app
+### Step 8: build a browser, android and iOS app
 *** update instructions here
 
 ### Step 9 (Optional): npm install electron
