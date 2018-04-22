@@ -107,7 +107,7 @@ Angular-cli.json - talk about assets
 Ng build -prod
 
 ### Step 8: build a browser, android and iOS app
-*** update instructions here
+Install and Configure Android Studio
 
 ### Step 9 (Optional): npm install electron
 *** update instructions here
